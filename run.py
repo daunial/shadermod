@@ -91,7 +91,7 @@ def karangan_1():
             sleep (2)
             print ("\033[1;33mGenerating Link...\n")
             sleep (4)
-            print ("Jangan kunci skrin atau keluar ke mana aplikasi ketika link sedang dijalankan!")
+            print ("Jangan kunci skrin atau keluar ke mana aplikasi    ketika link sedang dijalankan!")
             sleep (4)
             import lloadd
             sleep (2)
@@ -127,8 +127,16 @@ def karangan_1():
         elif o=="t":
             sys.exit()
     elif x==2:
-        print ("\033[1;31m404 : Error, file tidak dijumpai")
+        print ("\033[1;31mTTW SHADER!")
+        print ("\033[1;36mLINK : https://www.mediafire.com/file/7eidl8urtle39cc/TTW_Shader_V2/file\n")
+        print ("\033[1;31mPE HIGH SHADER")
+        print ("\033[1;36mLINK : https://drive.google.com/file/d/175RNn-HWxDEaJaGP-u-WxuK7TA3LeJW7/view\n")
+        print ("\033[1;31mBUN SHADER ultra/standard/zip")
+        print ("\033[1;36mLINK : https://mcpedl.com/bun-shader-v2/\n")
+        print ("\033[1;31mSUPER VANILLA RENEWED")
+        print ("\033[1;36mLINK : https://drive.google.com/file/d/174U9AXO4aCcBi-Ks5S2fhG6R-TwWT8hT/view?usp=drivesdk\n")
         import load
+        print ("")
         print ("\033[1;33mTekan R - menu utama")
         print ("Tekan E - exit")
         print ("Tekan Q - option\n")
@@ -149,8 +157,10 @@ def karangan_1():
             print ("code   : python")
             print ("Dibuat : termux")
     elif x==3:
-        print ("404 : Error, file tidak dijumpai")
+        print ("\033[1;31m404 : Error, file tidak dijumpai")
+        print ("Maaf kami masih tidak menjumpai sebarang mod!\n")
         import load
+        print ("")
         print ("\033[1;33mTekan R - menu utama")
         print ("Tekan E - exit")
         print ("Tekan Q - option\n")
