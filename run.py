@@ -46,6 +46,7 @@ def login():
                 if password_2 == "minecraft":
                     sleep (2)
                     print ("\033[1;33mBerjaya login")
+                    sleep (2)
             else:
                 break
         except ValueError:
@@ -127,9 +128,69 @@ def karangan_1():
             sys.exit()
     elif x==2:
         print ("\033[1;31m404 : Error, file tidak dijumpai")
+        import load
+        print ("\033[1;33mTekan R - menu utama")
+        print ("Tekan E - exit")
+        print ("Tekan Q - option\n")
+        print ("Masukkan huruf besar")
+        option = input("Masukkan option atas : ")
+        if option=="R":
+            import load
+            karangan_1()
+        elif option=="E":
+            import load
+            os.system("clear")
+            sys.exit()
+        elif option=="Q":
+            import load
+            print ("Creadit : danialhackim")
+            print ("TERIMA KASIH KEPADA PENGGUNA SAYA...")
+            print ("github : https://github.com/daunial")
+            print ("code   : python")
+            print ("Dibuat : termux")
     elif x==3:
         print ("404 : Error, file tidak dijumpai")
+        import load
+        print ("\033[1;33mTekan R - menu utama")
+        print ("Tekan E - exit")
+        print ("Tekan Q - option\n")
+        print ("Masukkan huruf besar")
+        option = input("Masukkan option atas : ")
+        if option=="R":
+            import load
+            karangan_1()
+        elif option=="E":
+            import load
+            os.system("clear")
+            sys.exit()
+        elif option=="Q":
+            import load
+            print ("Creadit : danialhackim")
+            print ("TERIMA KASIH KEPADA PENGGUNA SAYA...")
+            print ("github : https://github.com/daunial")
+            print ("code   : python")
+            print ("Dibuat : termux")
     elif x==4:
         print ("404 : Error, file tidak dijumpai")
+        import load
+        print ("\033[1;33mTekan R - menu utama")
+        print ("Tekan E - exit")
+        print ("Tekan Q - option\n")
+        print ("Masukkan huruf besar")
+        option = input("Masukkan option atas : ")
+        if option=="R":
+            import load
+            karangan_1()
+        elif option=="E":
+            import load
+            os.system("clear")
+            sys.exit()
+        elif option=="Q":
+            import load
+            print ("Creadit : danialhackim")
+            print ("TERIMA KASIH KEPADA PENGGUNA SAYA...")
+            print ("github : https://github.com/daunial")
+            print ("code   : python")
+            print ("Dibuat : termux")
 login()
 karangan_1()
